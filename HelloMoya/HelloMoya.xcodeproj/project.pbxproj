@@ -17,7 +17,7 @@
 		5690687B1FE21840004830A3 /* Httpbin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5690687A1FE21840004830A3 /* Httpbin.swift */; };
 		5690687E1FE21C30004830A3 /* Response+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5690687C1FE21C30004830A3 /* Response+Extension.swift */; };
 		5690687F1FE21C30004830A3 /* PrimitiveSequence+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5690687D1FE21C30004830A3 /* PrimitiveSequence+Extension.swift */; };
-		569068811FE21C5F004830A3 /* Error+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569068801FE21C5F004830A3 /* Error+Extension.swift */; };
+		569068811FE21C5F004830A3 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569068801FE21C5F004830A3 /* CustomError.swift */; };
 		569068831FE21C80004830A3 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569068821FE21C80004830A3 /* ErrorModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +35,7 @@
 		5690687A1FE21840004830A3 /* Httpbin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Httpbin.swift; sourceTree = "<group>"; };
 		5690687C1FE21C30004830A3 /* Response+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+Extension.swift"; sourceTree = "<group>"; };
 		5690687D1FE21C30004830A3 /* PrimitiveSequence+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PrimitiveSequence+Extension.swift"; sourceTree = "<group>"; };
-		569068801FE21C5F004830A3 /* Error+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+Extension.swift"; sourceTree = "<group>"; };
+		569068801FE21C5F004830A3 /* CustomError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 		569068821FE21C80004830A3 /* ErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
 		BCF893658ED1F35B5A7591A7 /* Pods-HelloMoya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMoya.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMoya/Pods-HelloMoya.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,7 +79,7 @@
 				567DA8501FE21F3C008FBE3B /* IPModel.swift */,
 				5690687D1FE21C30004830A3 /* PrimitiveSequence+Extension.swift */,
 				5690687C1FE21C30004830A3 /* Response+Extension.swift */,
-				569068801FE21C5F004830A3 /* Error+Extension.swift */,
+				569068801FE21C5F004830A3 /* CustomError.swift */,
 				569068821FE21C80004830A3 /* ErrorModel.swift */,
 				5690686A1FE1103F004830A3 /* Main.storyboard */,
 				5690686D1FE1103F004830A3 /* Assets.xcassets */,
@@ -235,7 +235,7 @@
 				5690687E1FE21C30004830A3 /* Response+Extension.swift in Sources */,
 				569068691FE1103F004830A3 /* ViewController.swift in Sources */,
 				5690687B1FE21840004830A3 /* Httpbin.swift in Sources */,
-				569068811FE21C5F004830A3 /* Error+Extension.swift in Sources */,
+				569068811FE21C5F004830A3 /* CustomError.swift in Sources */,
 				569068671FE1103F004830A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
