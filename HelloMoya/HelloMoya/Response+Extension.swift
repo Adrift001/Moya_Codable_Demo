@@ -16,7 +16,7 @@ public extension Response {
             let object = try decoder.decode(T.self, from: data)
             return object
         } catch {
-            throw CustomError.encode(error)
+            throw CustomError.decode(error)
         }
     }
     
@@ -25,7 +25,7 @@ public extension Response {
             let arr = try decoder.decode(Array<T>.self, from: data)
             return arr
         } catch {
-            throw CustomError.encode(error)
+            throw CustomError.decode(error)
         }
     }
 }
