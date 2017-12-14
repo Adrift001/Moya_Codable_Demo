@@ -1,0 +1,6 @@
+framework module Pods_HelloMoya {
+  umbrella header "Pods-HelloMoya-umbrella.h"
+
+  export *
+  module * { export * }
+}

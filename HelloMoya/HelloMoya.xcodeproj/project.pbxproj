@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48E6EA3A4A9E7DDCAFF6715D /* Pods_HelloMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9124BD77A6B6F7EC904F88 /* Pods_HelloMoya.framework */; };
+		567DA8511FE21F3C008FBE3B /* IPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567DA8501FE21F3C008FBE3B /* IPModel.swift */; };
+		569068671FE1103F004830A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569068661FE1103F004830A3 /* AppDelegate.swift */; };
+		569068691FE1103F004830A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569068681FE1103F004830A3 /* ViewController.swift */; };
+		5690686C1FE1103F004830A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5690686A1FE1103F004830A3 /* Main.storyboard */; };
+		5690686E1FE1103F004830A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5690686D1FE1103F004830A3 /* Assets.xcassets */; };
+		569068711FE1103F004830A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5690686F1FE1103F004830A3 /* LaunchScreen.storyboard */; };
+		5690687B1FE21840004830A3 /* Httpbin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5690687A1FE21840004830A3 /* Httpbin.swift */; };
+		5690687E1FE21C30004830A3 /* Response+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5690687C1FE21C30004830A3 /* Response+Extension.swift */; };
+		5690687F1FE21C30004830A3 /* ObservableType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5690687D1FE21C30004830A3 /* ObservableType+Extension.swift */; };
+		569068811FE21C5F004830A3 /* Error+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569068801FE21C5F004830A3 /* Error+Extension.swift */; };
+		569068831FE21C80004830A3 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569068821FE21C80004830A3 /* ErrorModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41387529B92EBCCD65D687A3 /* Pods-HelloMoya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMoya.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMoya/Pods-HelloMoya.debug.xcconfig"; sourceTree = "<group>"; };
+		4C9124BD77A6B6F7EC904F88 /* Pods_HelloMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		567DA8501FE21F3C008FBE3B /* IPModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPModel.swift; sourceTree = "<group>"; };
+		569068631FE1103F004830A3 /* HelloMoya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMoya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		569068661FE1103F004830A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		569068681FE1103F004830A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5690686B1FE1103F004830A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5690686D1FE1103F004830A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		569068701FE1103F004830A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		569068721FE1103F004830A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5690687A1FE21840004830A3 /* Httpbin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Httpbin.swift; sourceTree = "<group>"; };
+		5690687C1FE21C30004830A3 /* Response+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+Extension.swift"; sourceTree = "<group>"; };
+		5690687D1FE21C30004830A3 /* ObservableType+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+Extension.swift"; sourceTree = "<group>"; };
+		569068801FE21C5F004830A3 /* Error+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+Extension.swift"; sourceTree = "<group>"; };
+		569068821FE21C80004830A3 /* ErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		BCF893658ED1F35B5A7591A7 /* Pods-HelloMoya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMoya.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMoya/Pods-HelloMoya.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		569068601FE1103F004830A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E6EA3A4A9E7DDCAFF6715D /* Pods_HelloMoya.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5690685A1FE1103F004830A3 = {
+			isa = PBXGroup;
+			children = (
+				569068651FE1103F004830A3 /* HelloMoya */,
+				569068641FE1103F004830A3 /* Products */,
+				B3050161F4B3746ABCDBCD74 /* Pods */,
+				D93878E896300952CC429AE6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		569068641FE1103F004830A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				569068631FE1103F004830A3 /* HelloMoya.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		569068651FE1103F004830A3 /* HelloMoya */ = {
+			isa = PBXGroup;
+			children = (
+				569068661FE1103F004830A3 /* AppDelegate.swift */,
+				569068681FE1103F004830A3 /* ViewController.swift */,
+				5690687A1FE21840004830A3 /* Httpbin.swift */,
+				567DA8501FE21F3C008FBE3B /* IPModel.swift */,
+				5690687D1FE21C30004830A3 /* ObservableType+Extension.swift */,
+				5690687C1FE21C30004830A3 /* Response+Extension.swift */,
+				569068801FE21C5F004830A3 /* Error+Extension.swift */,
+				569068821FE21C80004830A3 /* ErrorModel.swift */,
+				5690686A1FE1103F004830A3 /* Main.storyboard */,
+				5690686D1FE1103F004830A3 /* Assets.xcassets */,
+				5690686F1FE1103F004830A3 /* LaunchScreen.storyboard */,
+				569068721FE1103F004830A3 /* Info.plist */,
+			);
+			path = HelloMoya;
+			sourceTree = "<group>";
+		};
+		B3050161F4B3746ABCDBCD74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41387529B92EBCCD65D687A3 /* Pods-HelloMoya.debug.xcconfig */,
+				BCF893658ED1F35B5A7591A7 /* Pods-HelloMoya.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D93878E896300952CC429AE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C9124BD77A6B6F7EC904F88 /* Pods_HelloMoya.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		569068621FE1103F004830A3 /* HelloMoya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 569068751FE1103F004830A3 /* Build configuration list for PBXNativeTarget "HelloMoya" */;
+			buildPhases = (
+				8594966DF5969F686F1766BD /* [CP] Check Pods Manifest.lock */,
+				5690685F1FE1103F004830A3 /* Sources */,
+				569068601FE1103F004830A3 /* Frameworks */,
+				569068611FE1103F004830A3 /* Resources */,
+				24F644BC66985B49762A66A1 /* [CP] Embed Pods Frameworks */,
+				0EA8AD6EE8B8DADB87FC5AB1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMoya;
+			productName = HelloMoya;
+			productReference = 569068631FE1103F004830A3 /* HelloMoya.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5690685B1FE1103F004830A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Adrift;
+				TargetAttributes = {
+					569068621FE1103F004830A3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5690685E1FE1103F004830A3 /* Build configuration list for PBXProject "HelloMoya" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5690685A1FE1103F004830A3;
+			productRefGroup = 569068641FE1103F004830A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				569068621FE1103F004830A3 /* HelloMoya */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		569068611FE1103F004830A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569068711FE1103F004830A3 /* LaunchScreen.storyboard in Resources */,
+				5690686E1FE1103F004830A3 /* Assets.xcassets in Resources */,
+				5690686C1FE1103F004830A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EA8AD6EE8B8DADB87FC5AB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloMoya/Pods-HelloMoya-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24F644BC66985B49762A66A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloMoya/Pods-HelloMoya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8594966DF5969F686F1766BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5690685F1FE1103F004830A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569068831FE21C80004830A3 /* ErrorModel.swift in Sources */,
+				5690687F1FE21C30004830A3 /* ObservableType+Extension.swift in Sources */,
+				567DA8511FE21F3C008FBE3B /* IPModel.swift in Sources */,
+				5690687E1FE21C30004830A3 /* Response+Extension.swift in Sources */,
+				569068691FE1103F004830A3 /* ViewController.swift in Sources */,
+				5690687B1FE21840004830A3 /* Httpbin.swift in Sources */,
+				569068811FE21C5F004830A3 /* Error+Extension.swift in Sources */,
+				569068671FE1103F004830A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5690686A1FE1103F004830A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5690686B1FE1103F004830A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5690686F1FE1103F004830A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				569068701FE1103F004830A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		569068731FE1103F004830A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		569068741FE1103F004830A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		569068761FE1103F004830A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41387529B92EBCCD65D687A3 /* Pods-HelloMoya.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3X368NZWN;
+				INFOPLIST_FILE = HelloMoya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhihui.farm.HelloMoya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		569068771FE1103F004830A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCF893658ED1F35B5A7591A7 /* Pods-HelloMoya.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3X368NZWN;
+				INFOPLIST_FILE = HelloMoya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhihui.farm.HelloMoya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5690685E1FE1103F004830A3 /* Build configuration list for PBXProject "HelloMoya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569068731FE1103F004830A3 /* Debug */,
+				569068741FE1103F004830A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		569068751FE1103F004830A3 /* Build configuration list for PBXNativeTarget "HelloMoya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569068761FE1103F004830A3 /* Debug */,
+				569068771FE1103F004830A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5690685B1FE1103F004830A3 /* Project object */;
+}
