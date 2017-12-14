@@ -1,5 +1,5 @@
 //
-//  ObservableType+Extension.swift
+//  PrimitiveSequence+Extension.swift
 //  HNTS-Consumer
 //
 //  Created by Adrift on 2017/6/2.
