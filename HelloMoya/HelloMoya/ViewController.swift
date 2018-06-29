@@ -12,6 +12,8 @@ import RxSwift
 
 class ViewController: UIViewController {
 
+    var bag = DisposeBag()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,7 +23,7 @@ class ViewController: UIViewController {
             print(ip.origin)
         }, onError: { (error) in
             print(error)
-        })
+        }).disposed(by: bag)
     
     }
 
