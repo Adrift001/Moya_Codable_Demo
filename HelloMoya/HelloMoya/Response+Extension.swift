@@ -11,7 +11,7 @@ import Moya
 
 public extension Response {
     
-    public func mapForObject<T: Codable>(_ type: T.Type, using decoder: JSONDecoder = .init()) throws -> T {
+    func mapForObject<T: Codable>(_ type: T.Type, using decoder: JSONDecoder = .init()) throws -> T {
         do {
             let object = try decoder.decode(T.self, from: data)
             return object
@@ -20,7 +20,7 @@ public extension Response {
         }
     }
     
-    public func mapForArray<T: Codable>(_ type: T.Type, using decoder: JSONDecoder = .init()) throws -> [T] {
+    func mapForArray<T: Codable>(_ type: T.Type, using decoder: JSONDecoder = .init()) throws -> [T] {
         do {
             let arr = try decoder.decode(Array<T>.self, from: data)
             return arr

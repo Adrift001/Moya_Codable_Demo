@@ -26,13 +26,13 @@ import Moya
 //}
 
 public extension PrimitiveSequence where E == Response {
-    public func mapForObject<T: Codable>(_ type: T.Type) -> Observable<T> {
+    func mapForObject<T: Codable>(_ type: T.Type) -> Observable<T> {
         return asObservable().flatMap({ (response) -> Observable<T> in
             return Observable.just(try response.mapForObject(T.self))
         })
     }
     
-    public func mapForArray<T: Codable>(_ type: T.Type) -> Observable<[T]> {
+    func mapForArray<T: Codable>(_ type: T.Type) -> Observable<[T]> {
         return asObservable().flatMap({ (response) -> Observable<[T]> in
             return Observable.just(try response.mapForArray(T.self))
         })
